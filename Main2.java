@@ -76,9 +76,11 @@ public class Main2 {
 
         Bank bank1 = new Bank("Kaspi Bank");
         Investor investor1 = new Investor("Erke Buulaan");
+        Investor investor2 = new Investor("Datish Fantastish");
 
         currencyExchange.addObserver(bank1);
         currencyExchange.addObserver(investor1);
+        currencyExchange.addObserver(investor2);
 
         currencyExchange.setExchangeRate("USD", 74.85);
         currencyExchange.setExchangeRate("EUR", 88.90);
